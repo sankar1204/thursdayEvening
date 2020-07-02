@@ -1,0 +1,8 @@
+C:\thursday\thursdayEvening\Output\Bin\netcoreapp2.0\PromotionEngine.deps.json
+C:\thursday\thursdayEvening\Output\Bin\netcoreapp2.0\PromotionEngine.dll
+C:\thursday\thursdayEvening\Output\Bin\netcoreapp2.0\PromotionEngine.pdb
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netcoreapp2.0\PromotionEngine.csproj.CoreCompileInputs.cache
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netcoreapp2.0\PromotionEngine.AssemblyInfoInputs.cache
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netcoreapp2.0\PromotionEngine.AssemblyInfo.cs
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netcoreapp2.0\PromotionEngine.dll
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netcoreapp2.0\PromotionEngine.pdb

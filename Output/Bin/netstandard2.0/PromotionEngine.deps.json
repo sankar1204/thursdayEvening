@@ -7,14 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "UnitTests/1.0.0": {
+      "PromotionEngine/1.0.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "PromotionEngine": "1.0.0",
-          "nunit.framework": "2.6.2.12296"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "UnitTests.dll": {}
+          "PromotionEngine.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -22,24 +20,11 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
-      },
-      "PromotionEngine/1.0.0": {
-        "runtime": {
-          "PromotionEngine.dll": {}
-        }
-      },
-      "nunit.framework/2.6.2.12296": {
-        "runtime": {
-          "nunit.framework.dll": {
-            "assemblyVersion": "2.6.2.12296",
-            "fileVersion": "2.6.2.12296"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "UnitTests/1.0.0": {
+    "PromotionEngine/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -57,16 +42,6 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
-    },
-    "PromotionEngine/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "nunit.framework/2.6.2.12296": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

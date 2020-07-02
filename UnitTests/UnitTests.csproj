@@ -10,11 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PromotionEngine\PromotionEngine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="nunit.framework">
       <HintPath>..\Output\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="PromotionEngine">
-      <HintPath>..\Output\Bin\netcoreapp2.0\PromotionEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -1,0 +1,10 @@
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.csprojAssemblyReference.cache
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.csproj.CoreCompileInputs.cache
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.AssemblyInfoInputs.cache
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.AssemblyInfo.cs
+C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.deps.json
+C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.dll
+C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.pdb
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.csproj.CopyComplete
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.dll
+C:\thursday\thursdayEvening\UnitTests\obj\Debug\netstandard2.0\UnitTests.pdb

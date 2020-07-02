@@ -5,7 +5,14 @@ using System.Text;
 namespace PromotionEngine {
     public class CheckOut {
 
-        public double GetTotal(string checkOutInput) {
+        /// <summary>
+        /// Ctor
+        /// </summary>
+        public CheckOut() {
+
+        }
+
+        public double GetTotal(string faceValue, string activePromotion, string checkOutInput) {
             return 0;
         }
     }
