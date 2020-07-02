@@ -6,3 +6,4 @@ C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netstandard2.0\PromotionEn
 C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netstandard2.0\PromotionEngine.AssemblyInfo.cs
 C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netstandard2.0\PromotionEngine.dll
 C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netstandard2.0\PromotionEngine.pdb
+C:\thursday\thursdayEvening\PromotionEngine\obj\Debug\netstandard2.0\PromotionEngine.csprojAssemblyReference.cache
