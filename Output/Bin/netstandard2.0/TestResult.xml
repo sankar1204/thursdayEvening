@@ -1,38 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.dll" total="3" errors="3" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-07-02" time="19:00:20">
+<test-results name="C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.dll" total="3" errors="1" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-07-02" time="19:19:49">
   <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.9044" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="INGBTCPIC5NB271" user="310227436" user-domain="CODE1" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.dll" executed="True" result="Failure" success="False" time="0.080" asserts="0">
+  <test-suite type="Assembly" name="C:\thursday\thursdayEvening\Output\Bin\netstandard2.0\UnitTests.dll" executed="True" result="Failure" success="False" time="0.111" asserts="0">
     <results>
-      <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="0.068" asserts="0">
+      <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="0.097" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="PromotionEngineTests" executed="True" result="Failure" success="False" time="0.067" asserts="0">
+          <test-suite type="TestFixture" name="PromotionEngineTests" executed="True" result="Failure" success="False" time="0.096" asserts="0">
             <results>
               <test-case name="UnitTests.PromotionEngineTests.Scenario1" executed="True" result="Error" success="False" time="0.041" asserts="0">
                 <failure>
-                  <message><![CDATA[System.IndexOutOfRangeException : Index was outside the bounds of the array.]]></message>
-                  <stack-trace><![CDATA[at PromotionEngine.CheckOut.GetTotal(String faceValue, String activePromotion, String checkOutInput)
+                  <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+                  <stack-trace><![CDATA[at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+at System.Convert.ToInt32(String value)
+at PromotionEngine.CheckOut.GetTotal(String faceValue, String activePromotion, String checkOutInput)
 at UnitTests.PromotionEngineTests.Scenario1()
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="UnitTests.PromotionEngineTests.Scenario2" executed="True" result="Error" success="False" time="0.002" asserts="0">
+              <test-case name="UnitTests.PromotionEngineTests.Scenario2" executed="True" result="Failure" success="False" time="0.010" asserts="1">
                 <failure>
-                  <message><![CDATA[System.IndexOutOfRangeException : Index was outside the bounds of the array.]]></message>
-                  <stack-trace><![CDATA[at PromotionEngine.CheckOut.GetTotal(String faceValue, String activePromotion, String checkOutInput)
-at UnitTests.PromotionEngineTests.Scenario2()
+                  <message><![CDATA[  it should have been430
+  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at UnitTests.PromotionEngineTests.Scenario2()
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="UnitTests.PromotionEngineTests.Scenario3" executed="True" result="Error" success="False" time="0.002" asserts="0">
-                <failure>
-                  <message><![CDATA[System.IndexOutOfRangeException : Index was outside the bounds of the array.]]></message>
-                  <stack-trace><![CDATA[at PromotionEngine.CheckOut.GetTotal(String faceValue, String activePromotion, String checkOutInput)
-at UnitTests.PromotionEngineTests.Scenario3()
-]]></stack-trace>
-                </failure>
-              </test-case>
+              <test-case name="UnitTests.PromotionEngineTests.Scenario3" executed="True" result="Success" success="True" time="0.001" asserts="1" />
             </results>
           </test-suite>
         </results>

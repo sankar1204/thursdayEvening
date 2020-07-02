@@ -16,7 +16,7 @@ namespace PromotionEngine {
                 prices.Add(vals[1], vals[0]);
             }
 
-            string[] checkOutList = checkOutInput.Split(new[] { ' ' });
+            string[] checkOutList = checkOutInput.Split(new[] { ';' });
             Dictionary<string, string> checkOutValues = new Dictionary<string, string>();
             foreach (var item in checkOutList) {
                 string[] vals = item.Split(new[] { ' ' });
@@ -36,23 +36,27 @@ namespace PromotionEngine {
 
             double total = 0;
             foreach (var item in checkOutValues.Keys) {
-                double price = ApplyPromotion(promotion, item, Convert.ToDouble(prices[item]));
-                double unit = Convert.ToDouble(checkOutValues[item]);
-
-                total += unit * price;
+                total += ApplyPromotion(promotion, 
+                    item,
+                    Convert.ToInt32(checkOutValues[item]),
+                    Convert.ToDouble(prices[item])); ;
             }
-            return 0;
+            return total;
         }
 
         private double ApplyPromotion(List<Tuple<string, int, double>> promotion,
-            string item, double v) {
+            string item,
+            int unit, 
+            double v) {
             foreach (var tuple in promotion) {
                 if (tuple.Item1.Contains(item)) {
-                    return tuple.Item3;
+                    var reminder = unit % tuple.Item2;
+                    var multiples = unit / tuple.Item2;
+                    return (reminder * v) + (multiples * tuple.Item3);
                 }
             }
 
-            return v;
+            return unit * v;
         }
     }
 }
